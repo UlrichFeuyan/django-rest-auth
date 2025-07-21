@@ -1,0 +1,6 @@
+Django==4.2.3
+django-cors-headers==4.7.0
+djangorestframework==3.16.0
+djangorestframework_simplejwt==5.5.0
+pytz==2025.2
+tzdata==2025.2
