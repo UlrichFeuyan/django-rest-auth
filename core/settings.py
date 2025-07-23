@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Third-party apps
+    'rest_framework_simplejwt.token_blacklist',
     'rest_framework',
     'corsheaders',
     
@@ -140,6 +141,12 @@ EMAIL_USE_TLS = env("EMAIL_USE_TLS", default=True)
 EMAIL_PORT = env("EMAIL_PORT", default=587)
 EMAIL_HOST_USER = env("EMAIL_HOST_USER", default="djofangulrich05@gmail.com")
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="khli jnrd otqh knki")
+
+
+# Google OAuth config
+GOOGLE_CLIENT_ID = "415947422854-qc2slmro04t506v8tlsl26naos2plon6.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET = "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"
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
