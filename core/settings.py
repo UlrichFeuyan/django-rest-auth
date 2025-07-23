@@ -144,8 +144,8 @@ EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="khli jnrd otqh knki")
 
 
 # Google OAuth config
-GOOGLE_CLIENT_ID = "415947422854-qc2slmro04t506v8tlsl26naos2plon6.apps.googleusercontent.com"
-GOOGLE_CLIENT_SECRET = "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"
+GOOGLE_CLIENT_ID = env('GOOGLE_CLIENT_ID')
+GOOGLE_CLIENT_SECRET = env('GOOGLE_CLIENT_SECRET')
 
 
 # Static files (CSS, JavaScript, Images)
